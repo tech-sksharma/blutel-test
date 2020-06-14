@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+  
+  
+ 
+  .digit,
+  .dig {
+    font-size: 1rem;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    line-height: 2;
+  }
+  
+.digit:hover{
+  background: #f1f1f1;
+}
+
+
+  .sub {
+    font-size: 0.8rem;
+    color: grey;
+  }
+  
+
+  #output {
+    font-family: 'Exo' !important;
+    color: #1976d2;
+    width: 190px;
+    display: inline-block;
+    margin: 0 5px 0 15px ;
+    height: 48px;
+  }
+  
+  #call {
+    display: inline-block;
+    background-color: #66bb6a;
+    padding: 10px 10px 15px 10px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 50px;
+    width: 60px;
+  }
+  
+  .botrow {
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    height: 60px;
+    width: 40px;
+    clear: both;
+    text-align: center;
+    font-family: 'Exo' !important;
+    display: inline-block;
+  }
+  
+  .digit:active,
+  .dig:active {
+    background-color: #e6e6e6;
+  }
+  
+  #call:hover {
+    background-color: #81c784;
+  }
+  
+  .dig {
+    float: left;
+    padding: 10px 20px;
+    margin: 10px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+.digits {
+  margin: auto;
+  text-align: center;
+}
